@@ -15,4 +15,7 @@ hooks:
     - location: scripts/stop_server
       timeout: 300
       runas: root
+    - location: scripts/remove_files
+      timeout: 300
+      runas: root
 
